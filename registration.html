@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-containar">
+        <nav>
+    
+                <h2 style="color:white;">Code Acadamy</h2>
+                
+                
+                
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="registration.html">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                
+                    </ul>
+        </nav>
+
+        <form  onsubmit="reg(event) " >
+            <h2 >Registration Form</h2>
+                    
+            <input type="text" id="r_name" placeholder="Enter Name" >
+            <p id="r_nameErr" style="color: rgb(181, 18, 18); margin-left: 10px;"></p>
+            <input type="text" id="r_email" placeholder="Enter Email">
+            <p id="r_emailErr" style="color: rgb(181, 18, 18); margin-left: 10px;"></p>
+            <input type="text" id="r_phone" placeholder="Enter Phone" >
+            <p id="r_phnErr" style="color: rgb(181, 18, 18); margin-left: 10px;"></p>
+            <input type="text" id="r_pass" placeholder="Enter Password" >
+            <p id="r_passErr" style="color: rgb(181, 18, 18); margin-left: 10px;"></p>
+            <input type="text" id="r_conpass" placeholder="Enter Password Again" >
+            <p id="r_conpassErr" style="color: rgb(181, 18, 18); margin-left: 10px;"></p>
+            <input type="submit" id="r_submit" 
+ name="submit" >
+            <p style="color:white; padding: 0px 12px;">Already have an account ? <a href="login.html" style="color:rgb(36, 209, 203);">Login</a></p>
+        </form>
+    </div>
+
+<script src="register.js"></script>
+  
+
+</body>
+</html>

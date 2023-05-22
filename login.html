@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-containar">
+        <nav>
+            <h2 style="color:white;">Code Acadamy</h2>
+            
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="about.html">About Us</a></li>
+            
+            </ul>
+        </nav>
+        <div>
+            <form onsubmit="login(event)">
+                <h2 >Login Form</h2>
+                <input type="text" id="l_email" placeholder="Enter Email" required>
+                <input type="text" id="l_pass" placeholder="Enter Password" required>
+                <input type="submit" id="l_submit" name="submit"  >
+                <p style="color:white; padding: 0px 12px;">New to Code Academy ? <a href="registration.html" style="color:rgb(36, 209, 203);">Create an account</a></p>
+                   </form>
+        </div>
+
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
