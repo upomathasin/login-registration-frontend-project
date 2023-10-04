@@ -1,5 +1,5 @@
 Login-registration-frontend-project:
-It is a simple login and registration system with propet validation . And simply store data in local storage.
+It is a simple login and registration system using javascript with proper validation . And simply store data in local storage.
 Some screenshots of this project : 
 ![04 10 2023_23 31 13_REC](https://github.com/upomathasin/login-registration-frontend-project/assets/67595090/c93b56dd-4968-475a-b015-3160e39c2288)
 ![04 10 2023_23 31 36_REC](https://github.com/upomathasin/login-registration-frontend-project/assets/67595090/9cfe91f5-50cf-4c9e-9ec2-4d17631cc82b)
